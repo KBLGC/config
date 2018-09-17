@@ -1,0 +1,20 @@
+info: 
+   name: sys-gateway
+   contact: 网关
+
+server:
+  port: 8080
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+zuul:
+  #prefix: 
+  routes:
+    route-test: 
+         path: /test/*
+         url: http://www.baidu.com
