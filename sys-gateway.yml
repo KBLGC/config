@@ -3,7 +3,7 @@ info:
    contact: 网关
 
 server:
-  port: 7070
+  port: 8080
 
 eureka:
   client:
