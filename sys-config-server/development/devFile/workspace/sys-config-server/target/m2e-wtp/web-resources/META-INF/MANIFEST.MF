@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: sys-config-server
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Administrator
+Implementation-Vendor-Id: sys-config-server
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-cloud/sys-config
+ -server
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
