@@ -1,5 +1,5 @@
 info: 
-   name: sys-config-server-sys-config-server
+   name: sys-config-server
    contact: 配置中心
 server:
   port: 7010
